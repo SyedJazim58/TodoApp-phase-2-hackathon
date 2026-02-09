@@ -1,0 +1,9 @@
+# Tests Directory
+
+This directory will contain frontend tests:
+
+- unit/ - Unit tests for components and utilities
+- integration/ - Integration tests for user flows
+- e2e/ - End-to-end tests (if needed)
+
+Testing framework (Jest/Vitest) will be configured in future tasks if requested.

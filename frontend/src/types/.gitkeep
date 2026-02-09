@@ -1,0 +1,9 @@
+# Types Directory
+
+This directory will contain TypeScript type definitions:
+
+- task.ts (T013) - Task entity types matching backend schema
+- api.ts (T014) - API response types (success, error, pagination)
+- auth.ts - Authentication-related types (to be added as needed)
+
+Types ensure type safety across the frontend application.

@@ -1,0 +1,9 @@
+# Services Directory
+
+This directory will contain API client services and business logic:
+
+- api-client.ts (T010, T011) - Centralized API client with JWT handling
+- auth-service.ts (T024) - Better Auth session methods wrapper
+- task-service.ts (T033) - Task CRUD operations
+
+Services abstract API calls and provide a clean interface for components.

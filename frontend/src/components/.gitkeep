@@ -1,0 +1,13 @@
+# Components Directory
+
+This directory will contain reusable React components:
+
+- TaskList/
+- TaskForm/
+- ProtectedRoute/
+- Navbar/
+- ErrorBoundary/
+- Notification/
+- AccessDenied/
+
+Components will be added in subsequent tasks (T015, T016, T022, T030, T031, T032, T047, T055).

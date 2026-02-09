@@ -1,0 +1,9 @@
+# Public Directory
+
+This directory contains static assets served from the root:
+
+- favicon.ico
+- images/
+- icons/
+
+Files in this directory are accessible at the root URL path.
