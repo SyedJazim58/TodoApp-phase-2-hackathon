@@ -116,7 +116,7 @@ async def update_task(
     """
     try:
         repository = TaskRepository(session)
-        task = repository.update(task_id, current_user["user_id"], task_data)
+        task = repository.update(current_user["user_id"], task_id, task_data)
 
         if task is None:
             raise HTTPException(
@@ -158,7 +158,7 @@ async def delete_task(
     """
     try:
         repository = TaskRepository(session)
-        success = repository.delete(task_id, current_user["user_id"])
+        success = repository.delete(current_user["user_id"], task_id)
 
         if not success:
             raise HTTPException(
